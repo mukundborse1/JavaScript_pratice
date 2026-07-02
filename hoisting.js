@@ -5,7 +5,7 @@ var data;
 
 info = 24;
 console.log(info);
-// cannot access 'info' before initialization.
+// cannot access 'info' before initialization
 let info;
 
 city = "Losvegus";

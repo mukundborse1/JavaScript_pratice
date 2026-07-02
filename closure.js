@@ -6,4 +6,4 @@ const info = () => {
     }
     showInfo(); 
 };
-info();
+info()

@@ -12,4 +12,4 @@ function debounce(fn, delay) {
 
 debounce(() => {
     console.log('Debounced function executed');
-}, 2000)();
+}, 2000)()
