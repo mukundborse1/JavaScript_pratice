@@ -1,0 +1,15 @@
+function debounce(fn, delay) {
+    let timer= null;
+
+    return function(...args){
+        const context = this;
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            fn.apply(context, args);
+        }, delay);
+    }
+}
+
+debounce(() => {
+    console.log('Debounced function executed');
+}, 2000)();
